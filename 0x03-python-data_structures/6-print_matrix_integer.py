@@ -4,4 +4,4 @@ def print_matrix_integer(matrix=[[]]):
         if (len(row) == 0):
             print()
         for idx, num in enumerate(row):
-            print("{}".format(num), end="\n" if idx == len(row) - 1 else " ")
+            print("{:d}".format(num), end="\n" if idx == len(row) - 1 else " ")
