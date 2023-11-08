@@ -1,7 +1,0 @@
-#!/usr/bin/python3
-def update_dictionary(a_dictionary, key, value):
-    new_dict = {}
-    for ele in a_dictionary:
-        new_dict[ele] = a_dictionary[ele]
-    new_dict[key] = value
-    return new_dict
