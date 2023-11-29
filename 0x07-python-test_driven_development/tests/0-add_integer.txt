@@ -1,5 +1,3 @@
-The ``0-add_integer`` module
-============================
 
 Using ``add_integer``
 ---------------------
@@ -110,4 +108,3 @@ Test float overflow:
     Traceback (most recent call last):
     ...
     OverflowError: cannot convert float infinity to integer
-    
