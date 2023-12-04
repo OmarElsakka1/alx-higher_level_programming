@@ -3,12 +3,5 @@
 
 
 def inherits_from(obj, a_class):
-    """This checks if an object is an inherited instance of a class.
-
-    Args:
-        obj (any): The object to check.
-        a_class (type): The class to match the type of obj to.
-    Returns:
-        If obj is an inherited instance of a_class return True, otherwise return false.
-    """
-    return(issubclass(type(obj), a_class) and type(obj) != a_class)
+    """checks if object is an instance of the specified class or its parents"""
+    return isinstance(obj, a_class) and type(obj) != a_class
