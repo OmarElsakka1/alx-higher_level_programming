@@ -1,4 +1,3 @@
 #!/bin/bash
-# when you run this script with a URL as an argument, it will fetch the content
-#  from that URL and display the size of the response body in bytes.
+# sending a request to that URL, and displaying the size of the body of the response
 curl -s "$1" | wc -c
